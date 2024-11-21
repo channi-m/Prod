@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ECF4E2"
+    >
+
+    <TextView
+        android:id="@+id/dobav_list_title"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/dobav_list_kkal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texttttt"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/dobav_list_belki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texttttt"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/dobav_list_zhiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texttttt"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/dobav_list_yglevodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texttt"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECF4E2"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:id="@+id/prods_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/soup" />
+
+    <TextView
+        android:id="@+id/prods_list_titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="13dp"/>
+
+    <Button
+        android:id="@+id/podrobnos"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#000000"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:linksClickable="true"
+        android:longClickable="true"
+        android:text="Открыть список"
+        app:toggleCheckedStateOnClick="true" />
+</LinearLayout>
